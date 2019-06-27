@@ -5,7 +5,7 @@
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/pichalite/nodebb-plugin-slack-extended.git"
+    "url": "http://github.com/Unsanctioned/nodebb-plugin-slack-extended.git"
   },
   "keywords": [
     "nodebb",
@@ -16,6 +16,9 @@
     "name": "Pichalite",
     "email": "pichalite.com@gmail.com"
   },
+  "contributors": [
+	  { "name" : "Unsanctioned", "email": "jason.maltzen@unsanctioned.net" }
+  ],
   "bugs": {
     "url": "http://github.com/Unsanctioned/nodebb-plugin-slack-extended/issues"
   },
