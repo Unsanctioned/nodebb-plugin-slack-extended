@@ -1,31 +1,32 @@
 {
-  "name": "nodebb-plugin-slack-extended",
-  "version": "0.0.7",
-  "description": "NodeBB Plugin for posting new posts via Slack webhooks",
-  "main": "library.js",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/pichalite/nodebb-plugin-slack-extended.git"
+  "author": {
+    "name": "Pichalite",
+    "email": "pichalite.com@gmail.com"
   },
+  "bugs": {
+    "url": "http://github.com/Unsanctioned/nodebb-plugin-slack-extended/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "slack-node": "0.1.7"
+  },
+  "deprecated": false,
+  "description": "NodeBB Plugin for posting new posts via Slack webhooks",
+  "homepage": "https://github.com/Unsanctioned/nodebb-plugin-slack-extended#readme",
   "keywords": [
     "nodebb",
     "plugin",
     "slack"
   ],
-  "author": {
-    "name": "Pichalite",
-    "email": "pichalite.com@gmail.com"
-  },
   "license": "MIT",
-  "bugs": {
-    "url": "http://github.com/pichalite/nodebb-plugin-slack-extended/issues"
-  },
-  "readme": "",
-  "readmeFilename": "README.md",
-  "dependencies": {
-    "slack-node": "0.1.7"
-  },
+  "main": "library.js",
+  "name": "nodebb-plugin-slack-extended",
   "nbbpm": {
-    "compatibility": "^0.9.0 || ^1.0.0"
-  }
+    "compatibility": "^1.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Unsanctioned/nodebb-plugin-slack-extended.git"
+  },
+  "version": "0.1.1"
 }
