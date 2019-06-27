@@ -1,4 +1,17 @@
 {
+  "name": "nodebb-plugin-slack-extended",
+  "version": "0.1.0",
+  "description": "NodeBB Plugin for posting new posts via Slack webhooks",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pichalite/nodebb-plugin-slack-extended.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "slack"
+  ],
   "author": {
     "name": "Pichalite",
     "email": "pichalite.com@gmail.com"
@@ -23,10 +36,6 @@
   "name": "nodebb-plugin-slack-extended",
   "nbbpm": {
     "compatibility": "^1.12.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Unsanctioned/nodebb-plugin-slack-extended.git"
   },
   "version": "0.1.1"
 }
